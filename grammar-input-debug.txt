@@ -1,0 +1,10 @@
+
+
+-- The problematic one for todot -->
+
+[PP [Spec (right)] [P' [P across] [NP the bridge]]]
+
+
+-- This one's ok for both todot and dot (frob)
+
+[PP [Spec right] [P' [P across] [NP [Spec the] [N* [N bridge]]]]]

@@ -1,0 +1,97 @@
+<html>
+ <head>
+   <title>Linear to Grammar Parse Tree</title>
+   <link rel=StyleSheet href="grammar-style.css" type="text/css">
+ </head>
+ 
+ <body>
+ 
+  <table width=500>
+   <tr>
+    <td width=150 valign=top>
+     <table>
+
+      <tr>
+       <td>
+        <p> <a href="linear2tree.html">Main Page</a> </p>
+       </td>
+      </tr>
+
+     
+      <tr>
+       <td>
+        <p> About</p>
+       </td>
+      </tr>
+     
+      <tr>
+       <td>
+         <p> <a href="grammar-form">Try the program</a> </p>
+       </td>
+      </tr>
+
+      <tr>
+       <td>
+         <p> <a href="linear2tree-author.html">About the author</a> </p>
+       </td>
+      </tr>
+
+      <tr>
+       <td>
+         <p> <a href="linear2tree-credits.html">Credits</a> </p>
+       </td>
+      </tr>
+
+
+
+     </table>
+    </td>
+
+    <td width=350>
+      <p>
+        This is a small linguistics typesetting utility to help
+	people who write linguistics papers and are in need of typesetting
+	parse trees.
+	<br><br>
+	
+	I myself was one of those people and tried to draw trees using
+	drawing software which took much time and did not produce high
+	quality output.
+	<br><br>
+
+	However, later I realized that a linear representation of a parse
+	tree such as:
+	<br><br>
+
+	[PP [Spec right] [P' [P across] [NP [Spec the] [N' [N bridge]]]]]
+	<br><br>
+
+	can be automatically translated to the traditional two dimensional
+	tree form and included in a paper.
+	<br><br>
+
+	So I wrote a small program using Common Lisp programming language
+	hoping it can help the linguistic research community and ease
+	their job writing and typesetting beautiful papers.
+	<br><br>
+
+	To try the utility visit <u>"Try the program"</u> section.
+	<br><br>
+
+	The current shortcomings of program:
+
+	 <ul>
+	 <li>It doesn't produce .pdf output.</li>
+	 <li>It is tested only for Turkish and English alphabet.</li>
+	 <li>The Turkish character set is only handled correctly for .png output.
+	    (due to some PostScript font problems).</li>
+	 <li>There are no ways to adjust the size and other parameters of the output.</li>
+	 </ul>
+      </p>
+     </td>
+   </tr>
+  </table>
+
+ </body>
+
+</html>

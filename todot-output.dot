@@ -1,0 +1,34 @@
+digraph L0 {
+       size = "8,8";
+       ordering=out;
+       node [shape = plaintext];
+       edge [sametail];
+
+       n0 [label="PP"];
+       n1 [label="Spec"];
+       n2 [label="P'"];
+       n3 [label="right"];
+       n4 [label="P"];
+       n5 [label="NP"];
+       n6 [label="accross"];
+       n7 [label="Spec"];
+       n8 [label="N'"];
+       n9 [label="the"];
+       n10 [label="N"];
+       n11 [label="bridge"];
+       n0 -> {n1 n2} [arrowhead=none];
+       n1 -> {n3} [arrowhead=none];
+       n2 -> {n4 n5} [arrowhead=none];
+       n4 -> {n6} [arrowhead=none];
+       n5 -> {n7 n8} [arrowhead=none];
+       n7 -> {n9} [arrowhead=none];
+       n8 -> {n10} [arrowhead=none];
+       n10 -> {n11} [arrowhead=none];
+}head=none];
+}rrowhead=none];
+       n8 -> {n10} [arrowhead=none];
+       n10 -> {n11} [arrowhead=none];
+       n11 -> {n12 n13} [arrowhead=none];
+       n13 -> {n14} [arrowhead=none];
+       n14 -> {n15} [arrowhead=none];
+}

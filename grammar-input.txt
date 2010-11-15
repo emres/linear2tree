@@ -1,0 +1,4 @@
+[PP [Spec right] [P' [P accross] [NP [Spec the] [N' [N bridge]]]]]
+nim yerime bulunma
+]]]
+

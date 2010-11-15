@@ -1,0 +1,2 @@
+[PP [Spec right] [P [P across] [NP [Spec the] [N [N ergin]]]]]
+
