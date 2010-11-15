@@ -1,5 +1,14 @@
 # linear2tree: Tiny web based linguistic utility to convert linear syntax representation into 2D syntax tree represenation
 
+**Warning:** The source code is about 5 years old and is the result of my
+experiments with Common Lisp to help fellow linguists. I did not test it with
+current Lisp implementations, web servers, etc. but probably it will either work
+out of the box provided that you have an active SBCL system and allegroserve or
+will require minor modifications. And probably by now somebody should have
+created a more capable utility to solve the same problem (let me
+know). Nevertheless I decided to share it so that it may prove useful for some
+linguists and hackers out there.
+
 This is a small linguistics typesetting utility to help eople who write
 linguistics papers and are in need of typesetting parse trees.
 
