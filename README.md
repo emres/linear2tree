@@ -18,7 +18,7 @@ typesetting beautiful papers.
 
 The current shortcomings of program:
 
-*It doesn't produce .pdf output.</li>
-*It is tested only for Turkish and English alphabet.
-*The Turkish character set is only handled correctly for .png output. (due to some PostScript font problems).
-*There are no ways to adjust the size and other parameters of the output.
+* It doesn't produce .pdf output.</li>
+* It is tested only for Turkish and English alphabet.
+* The Turkish character set is only handled correctly for .png output. (due to some PostScript font problems).
+* There are no ways to adjust the size and other parameters of the output.
